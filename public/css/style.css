@@ -1,0 +1,36 @@
+body{
+  	background: #333;
+  	color: #fff;
+  }
+  .navbar{
+  	border-bottom: 3px solid #008ed6;
+  	background: #292b2c;
+  	opacity: 0.7;
+  }
+  #main-section{
+  	background: url("../img/desk.jpeg") no-repeat center top;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	min-height: 700px;
+  }
+  .dark-overlay{
+  		background: rgba(0,0,0,0.8);
+  		min-height: 700px;
+  	}
+  	.fa{
+		background: #fff;
+  		color: #008ed6;
+  		padding: 4px;
+  		font-size: 30px;
+  		border-radius: 5px;
+  	}
+ 	.card-form{
+ 		opacity: 0.8;
+ 	}
+ 	.main-inner{
+ 		padding-top: 100px;
+ 		padding-bottom: 50px;
+ 	}
+ 	@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }
