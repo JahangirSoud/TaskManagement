@@ -41,8 +41,8 @@ class Example extends React.Component{
         return(
             <div><h1>Counter : {this.state.count}</h1>
                 <p>
-                    <button type="button" className="btn btn-primary btn-lg" onClick={()=>this.increment(5)}>+</button>
-                    <button type="button" className="btn btn-secondary btn-lg ml-5" onClick={()=>this.decrement(5)}>-</button>
+                    <button type="button" className="btn btn-primary btn-lg" onClick={()=>this.increment(10)}>+</button>
+                    <button type="button" className="btn btn-secondary btn-lg ml-5" onClick={()=>this.decrement(-10)}>-</button>
                 </p>
             </div>
             
